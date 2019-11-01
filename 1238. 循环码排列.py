@@ -32,6 +32,7 @@ class Solution(object):
         :type start: int
         :rtype: List[int]
         """
+        # # 超时，不要使用bin转二进制，直接十进制数值计算即可
         # res = list(range(2 ** n))
         # for i in range(len(res)):
         #     old = bin(res[i])
@@ -41,6 +42,9 @@ class Solution(object):
         #     res[i] = int(''.join(new), base=2)
         # tmp = res.index(start)
         # return res[tmp:] + res[:tmp]
+        
+        # 思路参考[格雷码与二进制码的转换](http://www.omegaxyz.com/2017/11/16/grayandbi/)
+        # 实现参考[『Leetcode 5239』循环码排列](https://blog.csdn.net/zzz805/article/details/102765356)
         res = list()
         flag = 0
         for i in range(2 ** n):
