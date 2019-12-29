@@ -52,3 +52,4 @@ class Solution(object):
             if res[-1] == start:
                 flag = len(res) - 1
         return res[flag:] + res[:flag]
+       
