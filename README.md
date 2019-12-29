@@ -47,7 +47,7 @@
   - [1287. 有序数组中出现次数超过25%的元素.py](https://github.com/half-empty/LeetCode/blob/master/1287.%20有序数组中出现次数超过25%25的元素.py)
   - [1288. 删除被覆盖区间.py](https://github.com/half-empty/LeetCode/blob/master/1288.%20删除被覆盖区间.py)
   - [1286. 字母组合迭代器.py](https://github.com/half-empty/LeetCode/blob/master/1286.%20字母组合迭代器.py)
-  - 1289.下降路径最小和  II
+  - [1289. 下降路径最小和 II.py](https://github.com/half-empty/LeetCode/blob/master/1289.%20下降路径最小和%20%20II.py)
 
 8、2019-12-22 [第 168 场周赛](https://leetcode-cn.com/contest/weekly-contest-168/) 53 / 1552
 
