@@ -41,46 +41,102 @@ words[i], result 只含有大写英文字母
 表达式中使用的不同字符数最大为 10
 """
 
+# 执行用时 :80 ms, 在所有 python3 提交中击败了100.00%的用户
+# 内存消耗 :12.7 MB, 在所有 python3 提交中击败了100.00%的用户
+# 比赛时没考虑前导为0的情况，但通过了，不清楚是因为数据漏洞还是什么原因。
+# 然后为了性能，通常会使用临时变量，也不会用defaultdict，写起来会更麻烦，但刷题场景下没必要注意这么多，影响不大。
+# 除此以外，调整了下代码，主要是dfs的返回技巧，没必要用闭包，以及剪枝的优化，比不剪枝快百倍吧。
+# 看了下其他人的代码，C++和Java直接不剪枝就可以过了，然而Python试了下就直接超时了。
+
+from typing import List
+
+
 class Solution:
     def isSolvable(self, words: List[str], result: str) -> bool:
-        letter_dict = dict()
+        from collections import defaultdict
+        letter_dict = defaultdict(int)
+        not_zero_letter_set = set()
         for word in words:
-            cnt = 1
-            for letter in word[::-1]:
-                if letter not in letter_dict:
-                    letter_dict[letter] = 0
-                letter_dict[letter] += cnt
-                cnt *= 10
-        cnt = 1
-        for letter in result[::-1]:
-            if letter not in letter_dict:
-                letter_dict[letter] = 0
-            letter_dict[letter] -= cnt
-            cnt *= 10
+            not_zero_letter_set.add(word[0])
+            for i, letter in enumerate(word[::-1]):
+                letter_dict[letter] += 10 ** i
+        not_zero_letter_set.add(result[0])
+        for i, letter in enumerate(result[::-1]):
+            letter_dict[letter] -= 10 ** i
         arr = sorted(letter_dict.values(), key=lambda x: abs(x), reverse=True)
+        not_zero_idx_set = [arr.index(letter_dict[letter]) for letter in not_zero_letter_set]
         length = len(arr)
         flag_num = [True] * 10
-        flag_res = [False]
         def dfs(i, s):
-            if flag_res[0]:
-                return
             if i == length:
                 if s == 0:
-                    flag_res[0] = True
-                return
+                    return True
+                return False
             # 剪枝
-            num = 10
             for num in range(10)[::-1]:
                 if flag_num[num]:
+                    if num * sum([arr[j] for j in range(i, length) if arr[j] > 0]) < -s or \
+                        num * sum([arr[j] for j in range(i, length) if arr[j] < 0]) > -s:
+                        return False
                     break
-            if num * sum([abs(arr[j]) for j in range(i, length)]) < abs(s):
-                return
-
             for num in range(10)[::-1]:
-                if not flag_num[num]:
+                if not flag_num[num] or (i in not_zero_idx_set and num == 0):
                     continue
                 flag_num[num] = False
-                dfs(i + 1, s + arr[i] * num)
+                if dfs(i + 1, s + arr[i] * num):
+                    return True
                 flag_num[num] = True
-        dfs(0, 0)
-        return flag_res[0]
+            return False
+        return dfs(0, 0)
+
+
+s = Solution()
+print(s.isSolvable(words = ["SEND","MORE"], result = "MONEY"))
+print(s.isSolvable(words = ["SIX","SEVEN","SEVEN"], result = "TWENTY"))
+print(s.isSolvable(words = ["THIS","IS","TOO"], result = "FUNNY"))
+print(s.isSolvable(words = ["LEET","CODE"], result = "POINT"))
+
+
+# class Solution:
+#     def isSolvable(self, words: List[str], result: str) -> bool:
+#         letter_dict = dict()
+#         for word in words:
+#             cnt = 1
+#             for letter in word[::-1]:
+#                 if letter not in letter_dict:
+#                     letter_dict[letter] = 0
+#                 letter_dict[letter] += cnt
+#                 cnt *= 10
+#         cnt = 1
+#         for letter in result[::-1]:
+#             if letter not in letter_dict:
+#                 letter_dict[letter] = 0
+#             letter_dict[letter] -= cnt
+#             cnt *= 10
+#         arr = sorted(letter_dict.values(), key=lambda x: abs(x), reverse=True)
+#         length = len(arr)
+#         flag_num = [True] * 10
+#         flag_res = [False]
+#         def dfs(i, s):
+#             if flag_res[0]:
+#                 return
+#             if i == length:
+#                 if s == 0:
+#                     flag_res[0] = True
+#                 return
+#             # 剪枝
+#             num = 10
+#             for num in range(10)[::-1]:
+#                 if flag_num[num]:
+#                     break
+#             if num * sum([abs(arr[j]) for j in range(i, length)]) < abs(s):
+#                 return
+#
+#             for num in range(10)[::-1]:
+#                 if not flag_num[num]:
+#                     continue
+#                 flag_num[num] = False
+#                 dfs(i + 1, s + arr[i] * num)
+#                 flag_num[num] = True
+#         dfs(0, 0)
+#         return flag_res[0]
