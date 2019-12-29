@@ -19,10 +19,6 @@
 
 你能不将整数转为字符串来解决这个问题吗？
 通过对10的整数除法取余等操作即可。
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/palindrome-number
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
 
 class Solution(object):
