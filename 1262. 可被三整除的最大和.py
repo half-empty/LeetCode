@@ -24,10 +24,6 @@
 
 1 <= nums.length <= 4 * 10^4
 1 <= nums[i] <= 10^4
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/greatest-sum-divisible-by-three
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
 
 class Solution(object):
