@@ -11,10 +11,6 @@
 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 说明:
 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
 
 class Solution(object):
