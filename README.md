@@ -23,7 +23,7 @@
   - [1261. 在受污染的二叉树中查找元素.py](https://github.com/half-empty/LeetCode/blob/master/1261.%20在受污染的二叉树中查找元素.py)
   - [1262. 可被三整除的最大和.py](https://github.com/half-empty/LeetCode/blob/master/1262.%20可被三整除的最大和.py)
   - 1263.推箱子
--  2019-11-24 第 164 场周赛 156 / 1675
+- 2019-11-24 第 164 场周赛 156 / 1675
   - [1266. 访问所有点的最小时间.py](https://github.com/half-empty/LeetCode/blob/master/1266.%20访问所有点的最小时间.py)
   - [1267. 统计参与通信的服务器.py](https://github.com/half-empty/LeetCode/blob/master/1267.%20统计参与通信的服务器.py)
   - [1268. 搜索推荐系统.py](https://github.com/half-empty/LeetCode/blob/master/1268.%20搜索推荐系统.py)
