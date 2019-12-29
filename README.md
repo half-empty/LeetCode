@@ -1,2 +1,53 @@
 # LeetCode
 LeetCode
+- 2019-11-02 第 12 场双周赛 182 / 911
+  - [5096. 数组变换.py](https://github.com/half-empty/LeetCode/blob/master/5096. 数组变换.py)
+  - [5097. 力扣排行榜.py](https://github.com/half-empty/LeetCode/blob/master/5097. 力扣排行榜.py)
+  - 1245.树的直径
+  - 1246.删除回文子数组
+- 2019-11-03 第 161 场周赛 449 / 1609
+  - [5247. 交换字符使得字符串相同.py](https://github.com/half-empty/LeetCode/blob/master/5247. 交换字符使得字符串相同.py)
+  - [5248. 统计「优美子数组」.py](https://github.com/half-empty/LeetCode/blob/master/5248. 统计「优美子数组」.py)
+  - [5249. 移除无效的括号.py](https://github.com/half-empty/LeetCode/blob/master/5249. 移除无效的括号.py)
+  - 1250.检查「好数组」
+- 2019-11-10 第 162 场周赛 165 / 1568
+  - [5255. 奇数值单元格的数目.py](https://github.com/half-empty/LeetCode/blob/master/5255. 奇数值单元格的数目.py)
+  - [5256. 重构 2 行二进制矩阵.py](https://github.com/half-empty/LeetCode/blob/master/5256. 重构 2 行二进制矩阵.py)
+  - [5257. 统计封闭岛屿的数目.py](https://github.com/half-empty/LeetCode/blob/master/5257. 统计封闭岛屿的数目.py)
+  - [5258. 得分最高的单词集合.py](https://github.com/half-empty/LeetCode/blob/master/5258. 得分最高的单词集合.py)
+- 2019-11-16 第 13 场双周赛 246 / 810
+  - [1256. 加密数字.py](https://github.com/half-empty/LeetCode/blob/master/1256. 加密数字.py)
+  - [1257. 最小公共区域.py](https://github.com/half-empty/LeetCode/blob/master/1257. 最小公共区域.py)
+  - [1258. 近义词句子.py](https://github.com/half-empty/LeetCode/blob/master/1258. 近义词句子.py)
+  - 1259.不相交的握手
+- 2019-11-17 第 163 场周赛 156 ~ 1604
+  - [1260. 二维网格迁移.py](https://github.com/half-empty/LeetCode/blob/master/1260. 二维网格迁移.py)
+  - [1261. 在受污染的二叉树中查找元素.py](https://github.com/half-empty/LeetCode/blob/master/1261. 在受污染的二叉树中查找元素.py)
+  - [1262. 可被三整除的最大和.py](https://github.com/half-empty/LeetCode/blob/master/1262. 可被三整除的最大和.py)
+  - 1263.推箱子
+- 2019-11-24 第 164 场周赛 156 / 1675
+  - [1266. 访问所有点的最小时间.py](https://github.com/half-empty/LeetCode/blob/master/1266. 访问所有点的最小时间.py)
+  - [1267. 统计参与通信的服务器.py](https://github.com/half-empty/LeetCode/blob/master/1267. 统计参与通信的服务器.py)
+  - [1268. 搜索推荐系统.py](https://github.com/half-empty/LeetCode/blob/master/1268. 搜索推荐系统.py)
+  - [1269. 停在原地的方案数.py](https://github.com/half-empty/LeetCode/blob/master/1269. 停在原地的方案数.py)
+- 2019-11-24 第 15 场双周赛 280 / 797
+  - [1287. 有序数组中出现次数超过25%的元素.py](https://github.com/half-empty/LeetCode/blob/master/1287. 有序数组中出现次数超过25%的元素.py)
+  - [1288. 删除被覆盖区间.py](https://github.com/half-empty/LeetCode/blob/master/1288. 删除被覆盖区间.py)
+  - [1286. 字母组合迭代器.py](https://github.com/half-empty/LeetCode/blob/master/1286. 字母组合迭代器.py)
+  - 下降路径最小和 II
+- 2019-12-22 第 168 场周赛 53 / 1552
+  - [1295. 统计位数为偶数的数字.py](https://github.com/half-empty/LeetCode/blob/master/1295. 统计位数为偶数的数字.py)
+  - [1296. 划分数组为连续数字的集合.py](https://github.com/half-empty/LeetCode/blob/master/1296. 划分数组为连续数字的集合.py)
+  - [1297. 子串的最大出现次数.py](https://github.com/half-empty/LeetCode/blob/master/1297. 子串的最大出现次数.py)
+  - [1298. 你能从盒子里获得的最大糖果数.py](https://github.com/half-empty/LeetCode/blob/master/1298. 你能从盒子里获得的最大糖果数.py)
+- 2019-12-28 第 16 场双周赛 134 / 822
+  - [5134. 将每个元素替换为右侧最大元素.py](https://github.com/half-empty/LeetCode/blob/master/5134. 将每个元素替换为右侧最大元素.py)
+  - [5135. 转变数组后最接近目标值的数](https://github.com/half-empty/LeetCode/blob/master/5135. 转变数组后最接近目标值的数组和.py)
+  - [5153. 层数最深叶子节点的和.py](https://github.com/half-empty/LeetCode/blob/master/5153. 层数最深叶子节点的和.py)
+  - [5137. 最大得分的路径数目.py](https://github.com/half-empty/LeetCode/blob/master/5137. 最大得分的路径数目.py)
+- 2019-12-29 第 169 场周赛 18 / 1567
+  - [5295. 和为零的N个唯一整数.py](https://github.com/half-empty/LeetCode/blob/master/5295. 和为零的N个唯一整数.py)
+  - [5296. 两棵二叉搜索树中的所有元素.py](https://github.com/half-empty/LeetCode/blob/master/5296. 两棵二叉搜索树中的所有元素.py)
+  - [5297. 跳跃游戏 III.py](https://github.com/half-empty/LeetCode/blob/master/5297. 跳跃游戏 III.py)
+  - [5298. 口算难题.py](https://github.com/half-empty/LeetCode/blob/master/5298. 口算难题.py)
+
