@@ -23,3 +23,4 @@ class Solution(object):
             if target - num in nums_dict:
                 return (nums_dict[target - num], index)
             nums_dict[num] = index
+            
