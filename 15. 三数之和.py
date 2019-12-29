@@ -56,3 +56,4 @@ class Solution(object):
             for pair in get_two_sum(nums[i + 1:], -nums[i]):
                 res.append((nums[i], ) + pair)
         return res
+      
