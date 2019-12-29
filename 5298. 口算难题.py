@@ -48,6 +48,19 @@ words[i], result 只含有大写英文字母
 # 除此以外，调整了下代码，主要是dfs的返回技巧，没必要用闭包，以及剪枝的优化，比不剪枝快百倍吧。
 # 看了下其他人的代码，C++和Java直接不剪枝就可以过了，然而Python试了下就直接超时了。
 
+"""
+解题思路
+1. 对words和result的单词进行按位统计，得到左右式的字母计算公式，目标为两式相减为0
+2. 从大系数的字母开始，通过DFS进行搜索
+3. 在搜索时进行剪枝，判断当前状态是否有可能形成可行解，如果不可能，则不再往下搜索。判断方式为：目前可用的最大数字(0-9)乘以还没确定数字的所有字母的正系数和，加上当前目标值不能小于0；目前可用的最大数字(0-9)乘以还没确定数字的所有字母的负系数和，加上当前目标值不能大于0
+4. 额外：记录了下开头的字母，使其不能为0
+
+作者：yi-lou-ting-feng-2
+链接：https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/dfsjian-zhi-python-80ms-by-yi-lou-ting-feng-2/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+"""
+
 from typing import List
 
 
@@ -64,7 +77,7 @@ class Solution:
         for i, letter in enumerate(result[::-1]):
             letter_dict[letter] -= 10 ** i
         arr = sorted(letter_dict.values(), key=lambda x: abs(x), reverse=True)
-        not_zero_idx_set = [arr.index(letter_dict[letter]) for letter in not_zero_letter_set]
+        not_zero_idx_set = {arr.index(letter_dict[letter]) for letter in not_zero_letter_set}
         length = len(arr)
         flag_num = [True] * 10
         def dfs(i, s):
@@ -75,8 +88,8 @@ class Solution:
             # 剪枝
             for num in range(10)[::-1]:
                 if flag_num[num]:
-                    if num * sum([arr[j] for j in range(i, length) if arr[j] > 0]) < -s or \
-                        num * sum([arr[j] for j in range(i, length) if arr[j] < 0]) > -s:
+                    if num * sum([arr[j] for j in range(i, length) if arr[j] > 0]) + s < 0 or \
+                        num * sum([arr[j] for j in range(i, length) if arr[j] < 0]) + s > 0:
                         return False
                     break
             for num in range(10)[::-1]:
