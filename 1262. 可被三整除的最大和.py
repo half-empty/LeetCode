@@ -56,3 +56,4 @@ class Solution(object):
                 new_flag[2] = max(flag[2], flag[0] + num)
             flag = new_flag
         return flag[0]
+    
