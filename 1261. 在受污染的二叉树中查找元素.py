@@ -112,7 +112,7 @@ class FindElements(object):
         if target in self.num_set:
             return True
         return False
-
+    
 
 # Your FindElements object will be instantiated and called as such:
 # obj = FindElements(root)
