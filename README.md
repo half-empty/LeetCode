@@ -72,22 +72,22 @@
 
     11、2020-01-05 [第 170 场周赛](https://leetcode-cn.com/contest/weekly-contest-170/) 未参赛
 
-      - [1309. 解码字母到整数映射](https://github.com/half-empty/LeetCode/blob/master/1309. 解码字母到整数映射.py)
-      - [1310. 子数组异或查询](https://github.com/half-empty/LeetCode/blob/master/1310. 子数组异或查询.py)
-      - [1311. 获取你好友已观看的视频](https://github.com/half-empty/LeetCode/blob/master/1311. 获取你好友已观看的视频.py)
-      - [1312. 让字符串成为回文串的最少插入次数](https://github.com/half-empty/LeetCode/blob/master/1312. 让字符串成为回文串的最少插入次数.py)
+      - [1309.解码字母到整数映射](https://github.com/half-empty/LeetCode/blob/master/1309. 解码字母到整数映射.py)
+      - [1310.子数组异或查询](https://github.com/half-empty/LeetCode/blob/master/1310. 子数组异或查询.py)
+      - [1311.获取你好友已观看的视频](https://github.com/half-empty/LeetCode/blob/master/1311. 获取你好友已观看的视频.py)
+      - [1312.让字符串成为回文串的最少插入次数](https://github.com/half-empty/LeetCode/blob/master/1312. 让字符串成为回文串的最少插入次数.py)
 
     12、2020-01-11 [第 17 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-17/) 137 / 897
 
-      - [5143. 解压缩编码列表](https://github.com/half-empty/LeetCode/blob/master/5143. 解压缩编码列表.py)
-      - [5144. 矩阵区域和](https://github.com/half-empty/LeetCode/blob/master/5144. 矩阵区域和.py)
-      - [5145. 祖父节点值为偶数的节点和](https://github.com/half-empty/LeetCode/blob/master/5145. 祖父节点值为偶数的节点和.py)
-      - [5146. 不同的循环子字符串](https://github.com/half-empty/LeetCode/blob/master/5146. 不同的循环子字符串.py)
+      - [5143.解压缩编码列表](https://github.com/half-empty/LeetCode/blob/master/5143. 解压缩编码列表.py)
+      - [5144.矩阵区域和](https://github.com/half-empty/LeetCode/blob/master/5144. 矩阵区域和.py)
+      - [5145.祖父节点值为偶数的节点和](https://github.com/half-empty/LeetCode/blob/master/5145. 祖父节点值为偶数的节点和.py)
+      - [5146.不同的循环子字符串](https://github.com/half-empty/LeetCode/blob/master/5146. 不同的循环子字符串.py)
 
     13、2020-01-12 [第 171 场周赛](https://leetcode-cn.com/contest/weekly-contest-171/) 259 / 1707
 
-      - [5307. 将整数转换为两个无零整数的和](https://github.com/half-empty/LeetCode/blob/master/5307. 将整数转换为两个无零整数的和.py)
-      - [5308. 或运算的最小翻转次数](https://github.com/half-empty/LeetCode/blob/master/5308. 或运算的最小翻转次数.py)
-      - [5309. 连通网络的操作次数](https://github.com/half-empty/LeetCode/blob/master/5309. 连通网络的操作次数.py)
-      - [5310. 二指输入的的最小距离](https://github.com/half-empty/LeetCode/blob/master/5310. 二指输入的的最小距离.py)
+      - [5307.将整数转换为两个无零整数的和](https://github.com/half-empty/LeetCode/blob/master/5307. 将整数转换为两个无零整数的和.py)
+      - [5308.或运算的最小翻转次数](https://github.com/half-empty/LeetCode/blob/master/5308. 或运算的最小翻转次数.py)
+      - [5309.连通网络的操作次数](https://github.com/half-empty/LeetCode/blob/master/5309. 连通网络的操作次数.py)
+      - [5310.二指输入的的最小距离](https://github.com/half-empty/LeetCode/blob/master/5310. 二指输入的的最小距离.py)
 
