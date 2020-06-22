@@ -91,3 +91,41 @@
       - [5309. 连通网络的操作次数](https://github.com/half-empty/LeetCode/blob/master/5309.%20连通网络的操作次数.py)
       - [5310. 二指输入的的最小距离](https://github.com/half-empty/LeetCode/blob/master/5310.%20二指输入的的最小距离.py)
 
+    14、2020-01-25 [第 18 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-18/) 175 / 587
+
+    15、2020-01-26 [第 173 场周赛](https://leetcode-cn.com/contest/weekly-contest-173/) 168 / 1071
+
+    16、2020-02-02 [第 174 场周赛](https://leetcode-cn.com/contest/weekly-contest-174/) 241 / 1659
+
+    17、2020-02-09 [第 175 场周赛](https://leetcode-cn.com/contest/weekly-contest-175/) 365 / 2047
+
+    18、2020-02-22 [第 20 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-20/) 209 / 1541
+
+    19、2020-03-01 [第 178 场周赛](https://leetcode-cn.com/contest/weekly-contest-178/) 269 / 3304
+
+    20、2020-03-07 [第 21 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-21/) 193 / 1913
+
+    21、2020-03-21 [第 22 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-22/) 263 / 2041
+
+    22、2020-03-22 [第 181 场周赛](https://leetcode-cn.com/contest/weekly-contest-181/) 296 / 4148
+
+    23、2020-04-12 [第 184 场周赛](https://leetcode-cn.com/contest/weekly-contest-184/) 79 / 3846
+
+    24、2020-04-19 [第 185 场周赛](https://leetcode-cn.com/contest/weekly-contest-185/) 211 / 5002
+
+    25、2020-05-02 [第 25 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-25/) 123 / 1832
+
+    26、2020-05-03 [第 187 场周赛](https://leetcode-cn.com/contest/weekly-contest-187/) 54 / 3108
+
+    27、2020-05-10 [第 188 场周赛](https://leetcode-cn.com/contest/weekly-contest-188/) 402 / 3981
+
+    28、2020-05-16 [第 26 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-26/) 341 / 1971
+
+    29、2020-05-24 [第 190 场周赛](https://leetcode-cn.com/contest/weekly-contest-190/) 226 / 3351
+
+    30、2020-06-07 [第 192 场周赛](https://leetcode-cn.com/contest/weekly-contest-192/) 162 / 3614
+
+    31、2020-06-13 [第 28 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-28/) 96 / 2144
+
+    32、2020-06-21 [第 194 场周赛](https://leetcode-cn.com/contest/weekly-contest-194/) 66 / 4377
+
