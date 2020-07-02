@@ -129,3 +129,5 @@
 
     32、2020-06-21 [第 194 场周赛](https://leetcode-cn.com/contest/weekly-contest-194/) 66 / 4377
 
+    33、2020-06-27 [第 29 场双周赛](https://leetcode-cn.com/contest/biweekly-contest-29/) 90 / 2260
+
